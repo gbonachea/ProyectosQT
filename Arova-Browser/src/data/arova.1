@@ -1,0 +1,49 @@
+.TH AROVA "1" "May 2026"
+
+.SH NAME
+Arova - Lightweight web browser based on Qt and QtWebEngine
+
+.SH SYNOPSIS
+.B arova [Qt options] [url]
+
+.SH DESCRIPTION
+.B Arova
+is a lightweight, cross-platform web browser using Qt 6 and the QtWebEngine
+layout engine.
+
+.SH OPTIONS
+.SS Common Qt Options
+.TP
+.B -style style, -style=style
+Specify the Qt widget style to use (examples: plastique, cleanlooks).
+.TP
+.B -stylesheet stylesheet, -stylesheet=stylesheet
+Specify the user stylesheet to use when rendering widgets.
+.TP
+.B -session session, -session=session
+Restore the application from an earlier \fBsession\fR.
+.TP
+.B -widgetcount
+Print a debug message at the end about the number of widgets left undestroyed
+and the maximum number of widgets that existed at the same time.
+.TP
+.B -reverse
+Sets the application's layout direction to right-to-left.
+
+.SS Options Specific to Arova
+.TP
+.B url
+The URL address to open in the browser.
+
+.SH BUGS
+Please report bugs to the project repository.
+
+.SH AUTHOR
+.PP
+Permission is granted to copy, distribute and/or modify this document under the
+terms of the
+GNU General Public License, Version 2 or any later version published by the Free
+Software Foundation.
+.PP
+On Debian systems, the complete text of the GNU General Public License can be
+found in /usr/share/common-licenses/GPL.
