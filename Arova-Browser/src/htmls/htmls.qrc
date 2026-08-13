@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>dirlist.html</file>
+    <file>notfound.html</file>
+    <file>startpage.html</file>
+    <file>startpage.css</file>
+    <file>page.html</file>
+    <file>page/barco.png</file>
+    <file>page/buscar.png</file>
+    <file>page/chatgpt.png</file>
+    <file>page/discord.png</file>
+    <file>page/duckduckgo.png</file>
+    <file>page/g.png</file>
+    <file>page/github.png</file>
+    <file>page/google.png</file>
+    <file>page/oso.png</file>
+    <file>page/store.png</file>
+    <file>page/telegram.png</file>
+    <file>page/whatsapp.png</file>
+</qresource>
+</RCC>
