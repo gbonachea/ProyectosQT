@@ -1,0 +1,7 @@
+Arova web browser
+
+Arova is a cross platform web browser built using Qt and QtWebEngine.
+It is a fork of the Arora browser originally written by Benjamin C. Meyer.
+
+Building:
+Arova uses the cmake build system.  If you already have Qt 6.2 or newer on your system building is as easy as running the command 'cmake' and then 'make'.
